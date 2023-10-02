@@ -4,9 +4,9 @@ import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
 // Einde van userInput voorbereiden
 
-let name = await userInput.question ('Wat is je naam? ')
-let age = await userInput.question ('Hoe oud ben je? ')
-let favoriteGame = await userInput.question ('Wat is je lievelingsspel? ')
+let name = await userInput.question ('Wat is je naam? ');
+let age = await userInput.question ('Hoe oud ben je? ');
+let favoriteGame = await userInput.question ('Wat is je lievelingsspel? ');
 
 console.log('Hallo '+ name +', ik hoor dat je '+ age +' jaar oud bent en dat je lievelingsgame '+ favoriteGame +' is.');
 

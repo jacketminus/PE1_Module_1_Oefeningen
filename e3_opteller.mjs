@@ -6,7 +6,7 @@ const userInput = readline.createInterface({input, output});
 
 
 
-// Voeg hier je eigen code in
+
 
 
 
